@@ -15,9 +15,9 @@ const R = require("ramda");
 const sumOf = R.curry((path, objects) =>
   R.pipe(
     R.pluck(path),
-    R.filter(R.is(Number)),
+    R.filter(R.complement(R.isNil)),
     R.sum
-  )(array)
+  )(objects)
 );
 
 module.exports = sumOf;
