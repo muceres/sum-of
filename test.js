@@ -1,7 +1,7 @@
-const dummyFunction = require(".");
+const sumOf = require(".");
 
-describe("chainFns tests", () => {
-  test("if dummyFunction is called then it must be defined", () => {
-    expect(typeof dummyFunction).toBe("function");
+describe("sumOf tests", () => {
+  test("if sumOf is called then it must be defined", () => {
+    expect(typeof sumOf).toBe("function");
   });
 });

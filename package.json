@@ -1,7 +1,7 @@
 {
-  "name": "js-function-templatey",
+  "name": "sum-of",
   "version": "1.0.0",
-  "description": "Template repo for js functions",
+  "description": "Returns the sum of the values of the same property off all objects in the supplied list",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saxjst/js-function-template.git"
+    "url": "git+https://github.com/saxjst/sum-of.git"
   },
   "author": {
     "name": "saxjst"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saxjst/js-function-template/issues"
+    "url": "https://github.com/saxjst/sum-of/issues"
   },
-  "homepage": "https://github.com/saxjst/js-function-template#readme",
+  "homepage": "https://github.com/saxjst/sum-of#readme",
   "engines": {
     "node": ">=10.16.3"
   },
