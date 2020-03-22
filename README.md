@@ -18,9 +18,32 @@ $ npm install sum-of
 ## Usage
 
 ```js
+const sumOf = require("sum-of");
+
+const objects = [{ a: 2 }, { a: 3, b: 1 }];
+
+sumOf(["a"], objects); //=> 5
 ```
 
 ## API
+
+### sumOf ⇒ `Number`
+
+Returns the sum of the values of the same property off all objects in the supplied list
+
+**Returns**: `Number` - sum of the selected properties  
+**Sig**: [a] -> [a] -> Number
+
+| Param   | Type       | Description                     |
+| ------- | ---------- | ------------------------------- |
+| path    | `String[]` | the path to work with           |
+| objects | `Object[]` | objects to retrieve values from |
+
+**Example**
+
+```js
+sumOf(["a"], [{ a: 2 }, { a: 3, b: 1 }]); //=> 5
+```
 
 ## License
 
