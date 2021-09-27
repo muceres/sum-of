@@ -47,4 +47,4 @@ sumOf(["a"], [{ a: 2 }, { a: 3, b: 1 }]); //=> 5
 
 ## License
 
-MIT © [saxjst](https://saxjst.com)
+MIT © [muceres](https://forgetheweb.eu)
